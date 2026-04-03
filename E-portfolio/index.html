@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jkuat Computer Science</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Jomo Kenyatta University Of Agriculture And Technology</div>
+    <nav id="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#units">Units</a></li>
+            <li><a href="#evidence">Evidence</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+</header>
+
+<main>
+
+<section id="home" class="section">
+
+  <img src="Assets/profile/profile 1.png" class="profile">
+
+  <div class="info-cards">
+
+    <div class="info-card">
+      <h3>Name</h3>
+      <p>Brayan Odhiambo Otieno</p>
+    </div>
+
+    <div class="info-card">
+      <h3>Registration Number</h3>
+      <p>TDC113-C002-0006/2025</p>
+    </div>
+
+    <div class="info-card bio-card">
+      <h3>Bio</h3>
+      <p>
+        I am a passionate and curious student with a strong interest in computer science and its ability to solve real-world problems.
+        I enjoy exploring how technology works, from coding and web development to understanding computing principles.
+        I am always eager to learn new things and take on challenges that allow me to grow both personally and academically.
+      </p>
+    </div>
+
+    <div class="info-card">
+      <h3>Email</h3>
+      <p>otieno.brian@students.jkuat.ac.ke</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="units" class="section">
+    <h2>Level 6 Units</h2>
+    <div id="units-container"></div>
+</section>
+
+
+<section id="evidence" class="section">
+    <h2>Additional Evidence</h2>
+    <div class="grid">
+        <img
+             src="Assets\screenshots\Screenshot 1.png"
+             alt="Screenshot 1"
+             style = "cursor: pointer;"
+             onclick ="openFullImage('Assets\screenshots\Screenshot 1.png')">
+        <img 
+            src="Assets\screenshots\certificate .jpeg"
+            alt="Certificate"
+            style = "cursor: pointer;"
+            onclick ="openFullImage('Assets\screenshots\certificate .jpeg')">
+    </div>
+</section>
+
+
+<section id="videos" class="section">
+    <h2>Video Evidence</h2>
+    <div class="grid">
+        <video 
+            controls 
+                src="Assets\video\Video 1.mp4"
+                style ="cursor: pointer; width 100%
+                onclick="openFullImage('Assets\video\Video 1.mp4')">
+        </video>
+       
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Jomo Kenyatta University Of Agriculture And Technology</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
